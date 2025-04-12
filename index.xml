@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>k7jsx.net</title>
-    <link>https://k7jsx.github.io/</link>
+    <link>https://k7jsx.net/</link>
     <description>Recent content on k7jsx.net</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://k7jsx.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="https://k7jsx.net/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

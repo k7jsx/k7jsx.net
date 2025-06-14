@@ -13,13 +13,12 @@
       <pubDate>Sat, 14 Jun 2025 11:29:24 -0700</pubDate>
       
       <guid>https://k7jsx.net/posts/adventures-in-rfi/</guid>
-      <description>&lt;h1 id=&#34;what-is-it&#34;&gt;What is it?&lt;/h1&gt;
+      <description>&lt;h1 id=&#34;rfi-in-my-shack---its-more-likely-than-you-think&#34;&gt;RFI? In my shack? - It&amp;rsquo;s more likely than you think.&lt;/h1&gt;
 &lt;p&gt;RFI is something I was introduced to very early on while operating end-fed antennas.&lt;/p&gt;
 &lt;p&gt;Why is my USB connection to the radio dropping as soon as it goes into TX? &lt;strong&gt;RFI&lt;/strong&gt; &lt;br&gt;
 Why does my waterfall just display noise when I connect it to USB? &lt;strong&gt;RFI&lt;/strong&gt; &lt;br&gt;
-Why does my noise floor jump to S9 when a new appliance arrives in the house? &lt;strong&gt;RFI!&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Ok, so how do we solve this problem? Suppression with &lt;a href=&#34;https://k7jsx.net/reference/#ferrites&#34;&gt;Ferrites!&lt;/a&gt;&lt;/p&gt;</description>
-      <content>&lt;h1 id=&#34;what-is-it&#34;&gt;What is it?&lt;/h1&gt;
+Why does my noise floor jump to S9 when a new appliance arrives in the house? &lt;strong&gt;RFI!&lt;/strong&gt;&lt;/p&gt;</description>
+      <content>&lt;h1 id=&#34;rfi-in-my-shack---its-more-likely-than-you-think&#34;&gt;RFI? In my shack? - It&amp;rsquo;s more likely than you think.&lt;/h1&gt;
 &lt;p&gt;RFI is something I was introduced to very early on while operating end-fed antennas.&lt;/p&gt;
 &lt;p&gt;Why is my USB connection to the radio dropping as soon as it goes into TX? &lt;strong&gt;RFI&lt;/strong&gt; &lt;br&gt;
 Why does my waterfall just display noise when I connect it to USB? &lt;strong&gt;RFI&lt;/strong&gt; &lt;br&gt;

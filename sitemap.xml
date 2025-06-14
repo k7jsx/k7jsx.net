@@ -2,8 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://k7jsx.net/posts/adventures-in-rfi/</loc>
+    <lastmod>2025-06-14T11:29:24-07:00</lastmod>
+  </url><url>
     <loc>https://k7jsx.net/</loc>
-    <lastmod>2025-06-13T21:23:38-07:00</lastmod>
+    <lastmod>2025-06-14T11:29:24-07:00</lastmod>
+  </url><url>
+    <loc>https://k7jsx.net/posts/</loc>
+    <lastmod>2025-06-14T11:29:24-07:00</lastmod>
   </url><url>
     <loc>https://k7jsx.net/xlx142/</loc>
     <lastmod>2025-06-13T21:23:38-07:00</lastmod>
@@ -13,9 +19,6 @@
   </url><url>
     <loc>https://k7jsx.net/about/</loc>
     <lastmod>2025-06-13T19:00:03-07:00</lastmod>
-  </url><url>
-    <loc>https://k7jsx.net/posts/</loc>
-    <lastmod>2025-04-12T21:54:52-07:00</lastmod>
   </url><url>
     <loc>https://k7jsx.net/categories/</loc>
   </url><url>

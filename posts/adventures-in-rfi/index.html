@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Adventures in RFI :: k7jsx.net</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="What is it? RFI is something I was introduced to very early on while operating end-fed antennas.
+Why is my USB connection to the radio dropping as soon as it goes into TX? RFI Why does my waterfall just display noise when I connect it to USB? RFI Why does my noise floor jump to S9 when a new appliance arrives in the house? RFI!
+Ok, so how do we solve this problem? Suppression with Ferrites!
+" />
+<meta name="keywords" content=", " />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="https://k7jsx.net/posts/adventures-in-rfi/" />
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="https://k7jsx.net/styles.css">
+
+
+
+
+
+
+
+  <link rel="shortcut icon" href="https://k7jsx.net/img/theme-colors/pink.png">
+  <link rel="apple-touch-icon" href="https://k7jsx.net/img/theme-colors/pink.png">
+
+
+
+<meta name="twitter:card" content="summary" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Adventures in RFI">
+<meta property="og:description" content="What is it? RFI is something I was introduced to very early on while operating end-fed antennas.
+Why is my USB connection to the radio dropping as soon as it goes into TX? RFI Why does my waterfall just display noise when I connect it to USB? RFI Why does my noise floor jump to S9 when a new appliance arrives in the house? RFI!
+Ok, so how do we solve this problem? Suppression with Ferrites!
+" />
+<meta property="og:url" content="https://k7jsx.net/posts/adventures-in-rfi/" />
+<meta property="og:site_name" content="k7jsx.net" />
+
+  
+  
+  <meta property="og:image" content="https://k7jsx.net/">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+  <meta property="article:published_time" content="2025-06-14 11:29:24 -0700 PDT" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+</head>
+<body class="pink">
+
+
+
+
+<div class="container center headings--one-size">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    k7jsx
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="/reference">Reference</a></li>
+        
+      
+        
+          <li><a href="/xlx142">XLX142</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+      
+        
+          <li><a href="/about" >About</a></li>
+        
+      
+        
+          <li><a href="/reference" >Reference</a></li>
+        
+      
+        
+          <li><a href="/xlx142" >XLX142</a></li>
+        
+      
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="https://k7jsx.net/posts/adventures-in-rfi/">Adventures in RFI</a>
+  </h1>
+  <div class="post-meta"><time class="post-date">2025-06-14</time><span class="post-author">k7jsx</span>
+    
+</div>
+
+  
+    <span class="post-tags">
+      
+      #<a href="https://k7jsx.net/tags/"></a>&nbsp;
+      
+      #<a href="https://k7jsx.net/tags/"></a>&nbsp;
+      
+    </span>
+  
+  
+
+
+
+  
+
+  <div class="post-content"><div>
+        <h1 id="what-is-it">What is it?<a href="#what-is-it" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
+<p>RFI is something I was introduced to very early on while operating end-fed antennas.</p>
+<p>Why is my USB connection to the radio dropping as soon as it goes into TX? <strong>RFI</strong> <br>
+Why does my waterfall just display noise when I connect it to USB? <strong>RFI</strong> <br>
+Why does my noise floor jump to S9 when a new appliance arrives in the house? <strong>RFI!</strong></p>
+<p>Ok, so how do we solve this problem? Suppression with <a href="/reference/#ferrites">Ferrites!</a></p>
+<p>In some scenarios it&rsquo;s easy to identify the source of the problem&hellip; <br>
+Did something just get plugged in? <br>
+Did something just turn on? <br>
+Bingo! You found it. <br>
+Throw an appropriately sized ferrite on it and move on with life.</p>
+<p>If the source of the noise is not apparent it&rsquo;s critical to methodical and
+scientific to reliably detect and suppress it. Learn from my mistakes.
+It may be emitting from something you control in your own home
+or something external.</p>
+<h1 id="case-study">Case Study<a href="#case-study" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
+<h2 id="a-challenger-approaches">A challenger approaches&hellip;<a href="#a-challenger-approaches" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>I recently brought a new appliance into my home, a Samsung Refrigerator.
+It brought with it two different types of ice, a neat auto-refilling water pitcher,
+and <strong>S9 noise on bands 20m-10m</strong>. I knew something was wrong
+but not how to effectively resolve. How do I stop something from making
+noise when all I can see is the power cord? Do I lose access to operate my
+favorite HF bands from home for the foreseeable future or void a warranty?</p>
+<p>I quickly determined access to those bands had more value than the non-returnable
+refrigerator now sitting in my kitchen. Let&rsquo;s see what we can do&hellip;</p>
+<h3 id="plan-a---seek-an-accepted-solution">Plan A - Seek an accepted solution.<a href="#plan-a---seek-an-accepted-solution" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<p>With little experience in this area I turned to searching the internet. This
+turned up <a href="https://www.reddit.com/r/amateurradio/comments/1b5177y/samsung_fridge_rfi/">a reddit post</a>
+referencing the specific brand, some steps already taken and a potential <a href="https://www.reddit.com/r/amateurradio/comments/1bmpr4b/solution_to_samsung_fridge_rfi/">solution</a>.</p>
+<p>Perfect. Lets give it a shot.</p>
+<p>I selected a comparable part that would fit my new source of noise, a <a href="https://www.digikey.com/en/products/detail/schurter-inc/5500-2044/642121">SCHURTER INC / 5500.2044</a>.</p>
+<p>Once installed the noise dropped but it wasn&rsquo;t completely gone&hellip; <em>ruh roh</em>.</p>
+<h3 id="plan-b---flounder">Plan B - Flounder.<a href="#plan-b---flounder" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<p>Enlisting the help of my trusty Elecraft Kx2 and a small HT antenna I attempted to locate what parts of the
+fridge were actually radiating. Using the Kx2 much like a metal detecting wand,
+I quickly determined most of the noise was emitting from the
+door and the rear panel. Anywhere in the vicinity of the fridge the Kx2
+registered <strong>S5</strong> noise. Not great, not terrible.</p>
+<p>Ok, what do we do? Ferrite anything we can reach. <br>
+Ferrites on the cables leaving the control board. <br>
+Ferrites on the cables leading to the door.</p>
+<p>With this step completed the Kx2 no longer had a registration on the S-meter when
+near the fridge! Progress! Let&rsquo;s check the main QTH antenna&hellip;<strong>still S5</strong>.</p>
+<p>At this point I doubted the fridge was involved. Time to try something else.</p>
+<h3 id="plan-c---cut-the-power">Plan C - <em>Cut the power.</em><a href="#plan-c---cut-the-power" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<p>To figure out where this noise was really coming from I powered down everything in
+the house and flipped the main service breaker.
+Remember when I said we needed to be scientific? Now&rsquo;s the time.</p>
+<blockquote>
+<p>&ldquo;Remember kids, the only difference between Science and screwing around is writing it down.&rdquo; -Adam Savage</p></blockquote>
+<p>With these words of wisdom in mind lets record some readings:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Band</th>
+          <th>Noise Level</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>10m</td>
+          <td>S1 to S2</td>
+      </tr>
+      <tr>
+          <td>15m</td>
+          <td>S1 to S2</td>
+      </tr>
+      <tr>
+          <td>17m</td>
+          <td>S3 (?)</td>
+      </tr>
+      <tr>
+          <td>20m</td>
+          <td>S4 (!)</td>
+      </tr>
+      <tr>
+          <td>30m</td>
+          <td>S1 to S2</td>
+      </tr>
+      <tr>
+          <td>40m</td>
+          <td>S2 to S3</td>
+      </tr>
+  </tbody>
+</table>
+<p>Our noise floor was higher than we realized on 17 and 20 but there is room for improvement on all bands.</p>
+<p>Flipping breakers on one-by-one and checking the waterfall and S meter I located multiple sources of noise:</p>
+<ul>
+<li>Apple AirPort Express. <em>Disconnected&hellip;</em></li>
+<li>Google Chromecast USB power supply. <em>Trashed&hellip;</em></li>
+<li>Bedside table USB charge port. <em>Trashed&hellip;</em></li>
+<li>No-name USB charger used to power my Meshtastic node. <em>Tuh-rashed!</em></li>
+</ul>
+<p><strong>Once power was completely restored I noted readings on all bands were very close to
+the readings when the power was completely removed!</strong> Perfect!</p>
+<p>The HVAC air handler and outdoor compressor added <em>some</em> noise
+but not enough to warrant touching them.</p>
+<h3 id="success">Success.<a href="#success" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<p>So, we solved our noise problems but what did we learn?</p>
+<ol>
+<li><strong>It&rsquo;s important to know your local noise level</strong>. <br>
+Without these base readings you may waste time attempting to solve problems outside your control.</li>
+<li><strong>It&rsquo;s important to be methodical.</strong> <br>
+Formulate a plan, enact the plan then evaluate results. <br>
+This is the quickest way to success.</li>
+</ol>
+<h2 id="resources">Resources<a href="#resources" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>Here&rsquo;s some resources I reviewed during this whole process. <br>
+I hope they also help you.</p>
+<ul>
+<li>HRCC - <em>WE are killing the amateur radio bands, and here is how to fix it (RFI)</em> - (<a href="https://www.youtube.com/watch?v=QQzmMOJvFfc">Link</a>)</li>
+<li>QRM.guru - (<a href="https://qrm.guru/">Link</a>)</li>
+<li>Reddit - Samsung Fridge RFI - (<a href="https://www.reddit.com/r/amateurradio/comments/1bmpr4b/solution_to_samsung_fridge_rfi/">Link</a>)</li>
+</ul>
+
+      </div></div>
+
+  
+    
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2025 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    
+      <span>:: <a href="https://github.com/mirus-ua/hugo-theme-re-terminal" target="_blank">Theme</a> made by <a href="https://github.com/mirus-ua" target="_blank">Mirus</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

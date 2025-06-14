@@ -6,6 +6,135 @@
     <description>Recent content in Posts on k7jsx.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 12 Apr 2025 21:54:52 -0700</lastBuildDate><atom:link href="https://k7jsx.net/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 14 Jun 2025 11:29:24 -0700</lastBuildDate><atom:link href="https://k7jsx.net/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Adventures in RFI</title>
+      <link>https://k7jsx.net/posts/adventures-in-rfi/</link>
+      <pubDate>Sat, 14 Jun 2025 11:29:24 -0700</pubDate>
+      
+      <guid>https://k7jsx.net/posts/adventures-in-rfi/</guid>
+      <description>&lt;h1 id=&#34;what-is-it&#34;&gt;What is it?&lt;/h1&gt;
+&lt;p&gt;RFI is something I was introduced to very early on while operating end-fed antennas.&lt;/p&gt;
+&lt;p&gt;Why is my USB connection to the radio dropping as soon as it goes into TX? &lt;strong&gt;RFI&lt;/strong&gt; &lt;br&gt;
+Why does my waterfall just display noise when I connect it to USB? &lt;strong&gt;RFI&lt;/strong&gt; &lt;br&gt;
+Why does my noise floor jump to S9 when a new appliance arrives in the house? &lt;strong&gt;RFI!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Ok, so how do we solve this problem? Suppression with &lt;a href=&#34;https://k7jsx.net/reference/#ferrites&#34;&gt;Ferrites!&lt;/a&gt;&lt;/p&gt;</description>
+      <content>&lt;h1 id=&#34;what-is-it&#34;&gt;What is it?&lt;/h1&gt;
+&lt;p&gt;RFI is something I was introduced to very early on while operating end-fed antennas.&lt;/p&gt;
+&lt;p&gt;Why is my USB connection to the radio dropping as soon as it goes into TX? &lt;strong&gt;RFI&lt;/strong&gt; &lt;br&gt;
+Why does my waterfall just display noise when I connect it to USB? &lt;strong&gt;RFI&lt;/strong&gt; &lt;br&gt;
+Why does my noise floor jump to S9 when a new appliance arrives in the house? &lt;strong&gt;RFI!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Ok, so how do we solve this problem? Suppression with &lt;a href=&#34;https://k7jsx.net/reference/#ferrites&#34;&gt;Ferrites!&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;In some scenarios it&amp;rsquo;s easy to identify the source of the problem&amp;hellip; &lt;br&gt;
+Did something just get plugged in? &lt;br&gt;
+Did something just turn on? &lt;br&gt;
+Bingo! You found it. &lt;br&gt;
+Throw an appropriately sized ferrite on it and move on with life.&lt;/p&gt;
+&lt;p&gt;If the source of the noise is not apparent it&amp;rsquo;s critical to methodical and
+scientific to reliably detect and suppress it. Learn from my mistakes.
+It may be emitting from something you control in your own home
+or something external.&lt;/p&gt;
+&lt;h1 id=&#34;case-study&#34;&gt;Case Study&lt;/h1&gt;
+&lt;h2 id=&#34;a-challenger-approaches&#34;&gt;A challenger approaches&amp;hellip;&lt;/h2&gt;
+&lt;p&gt;I recently brought a new appliance into my home, a Samsung Refrigerator.
+It brought with it two different types of ice, a neat auto-refilling water pitcher,
+and &lt;strong&gt;S9 noise on bands 20m-10m&lt;/strong&gt;. I knew something was wrong
+but not how to effectively resolve. How do I stop something from making
+noise when all I can see is the power cord? Do I lose access to operate my
+favorite HF bands from home for the foreseeable future or void a warranty?&lt;/p&gt;
+&lt;p&gt;I quickly determined access to those bands had more value than the non-returnable
+refrigerator now sitting in my kitchen. Let&amp;rsquo;s see what we can do&amp;hellip;&lt;/p&gt;
+&lt;h3 id=&#34;plan-a---seek-an-accepted-solution&#34;&gt;Plan A - Seek an accepted solution.&lt;/h3&gt;
+&lt;p&gt;With little experience in this area I turned to searching the internet. This
+turned up &lt;a href=&#34;https://www.reddit.com/r/amateurradio/comments/1b5177y/samsung_fridge_rfi/&#34;&gt;a reddit post&lt;/a&gt;
+referencing the specific brand, some steps already taken and a potential &lt;a href=&#34;https://www.reddit.com/r/amateurradio/comments/1bmpr4b/solution_to_samsung_fridge_rfi/&#34;&gt;solution&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Perfect. Lets give it a shot.&lt;/p&gt;
+&lt;p&gt;I selected a comparable part that would fit my new source of noise, a &lt;a href=&#34;https://www.digikey.com/en/products/detail/schurter-inc/5500-2044/642121&#34;&gt;SCHURTER INC / 5500.2044&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Once installed the noise dropped but it wasn&amp;rsquo;t completely gone&amp;hellip; &lt;em&gt;ruh roh&lt;/em&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;plan-b---flounder&#34;&gt;Plan B - Flounder.&lt;/h3&gt;
+&lt;p&gt;Enlisting the help of my trusty Elecraft Kx2 and a small HT antenna I attempted to locate what parts of the
+fridge were actually radiating. Using the Kx2 much like a metal detecting wand,
+I quickly determined most of the noise was emitting from the
+door and the rear panel. Anywhere in the vicinity of the fridge the Kx2
+registered &lt;strong&gt;S5&lt;/strong&gt; noise. Not great, not terrible.&lt;/p&gt;
+&lt;p&gt;Ok, what do we do? Ferrite anything we can reach. &lt;br&gt;
+Ferrites on the cables leaving the control board. &lt;br&gt;
+Ferrites on the cables leading to the door.&lt;/p&gt;
+&lt;p&gt;With this step completed the Kx2 no longer had a registration on the S-meter when
+near the fridge! Progress! Let&amp;rsquo;s check the main QTH antenna&amp;hellip;&lt;strong&gt;still S5&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;At this point I doubted the fridge was involved. Time to try something else.&lt;/p&gt;
+&lt;h3 id=&#34;plan-c---cut-the-power&#34;&gt;Plan C - &lt;em&gt;Cut the power.&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;To figure out where this noise was really coming from I powered down everything in
+the house and flipped the main service breaker.
+Remember when I said we needed to be scientific? Now&amp;rsquo;s the time.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;Remember kids, the only difference between Science and screwing around is writing it down.&amp;rdquo; -Adam Savage&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;With these words of wisdom in mind lets record some readings:&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Band&lt;/th&gt;
+          &lt;th&gt;Noise Level&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;10m&lt;/td&gt;
+          &lt;td&gt;S1 to S2&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;15m&lt;/td&gt;
+          &lt;td&gt;S1 to S2&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;17m&lt;/td&gt;
+          &lt;td&gt;S3 (?)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;20m&lt;/td&gt;
+          &lt;td&gt;S4 (!)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;30m&lt;/td&gt;
+          &lt;td&gt;S1 to S2&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;40m&lt;/td&gt;
+          &lt;td&gt;S2 to S3&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Our noise floor was higher than we realized on 17 and 20 but there is room for improvement on all bands.&lt;/p&gt;
+&lt;p&gt;Flipping breakers on one-by-one and checking the waterfall and S meter I located multiple sources of noise:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Apple AirPort Express. &lt;em&gt;Disconnected&amp;hellip;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Google Chromecast USB power supply. &lt;em&gt;Trashed&amp;hellip;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Bedside table USB charge port. &lt;em&gt;Trashed&amp;hellip;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;No-name USB charger used to power my Meshtastic node. &lt;em&gt;Tuh-rashed!&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Once power was completely restored I noted readings on all bands were very close to
+the readings when the power was completely removed!&lt;/strong&gt; Perfect!&lt;/p&gt;
+&lt;p&gt;The HVAC air handler and outdoor compressor added &lt;em&gt;some&lt;/em&gt; noise
+but not enough to warrant touching them.&lt;/p&gt;
+&lt;h3 id=&#34;success&#34;&gt;Success.&lt;/h3&gt;
+&lt;p&gt;So, we solved our noise problems but what did we learn?&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;It&amp;rsquo;s important to know your local noise level&lt;/strong&gt;. &lt;br&gt;
+Without these base readings you may waste time attempting to solve problems outside your control.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;It&amp;rsquo;s important to be methodical.&lt;/strong&gt; &lt;br&gt;
+Formulate a plan, enact the plan then evaluate results. &lt;br&gt;
+This is the quickest way to success.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
+&lt;p&gt;Here&amp;rsquo;s some resources I reviewed during this whole process. &lt;br&gt;
+I hope they also help you.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;HRCC - &lt;em&gt;WE are killing the amateur radio bands, and here is how to fix it (RFI)&lt;/em&gt; - (&lt;a href=&#34;https://www.youtube.com/watch?v=QQzmMOJvFfc&#34;&gt;Link&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;QRM.guru - (&lt;a href=&#34;https://qrm.guru/&#34;&gt;Link&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Reddit - Samsung Fridge RFI - (&lt;a href=&#34;https://www.reddit.com/r/amateurradio/comments/1bmpr4b/solution_to_samsung_fridge_rfi/&#34;&gt;Link&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    </item>
+    
   </channel>
 </rss>

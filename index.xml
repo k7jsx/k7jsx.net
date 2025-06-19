@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>k7jsx.net</title>
-    <link>https://k7jsx.net/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on k7jsx.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 14 Jun 2025 11:29:24 -0700</lastBuildDate><atom:link href="https://k7jsx.net/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 14 Jun 2025 11:29:24 -0700</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Adventures in RFI</title>
-      <link>https://k7jsx.net/posts/adventures-in-rfi/</link>
+      <link>http://localhost:1313/posts/adventures-in-rfi/</link>
       <pubDate>Sat, 14 Jun 2025 11:29:24 -0700</pubDate>
       
-      <guid>https://k7jsx.net/posts/adventures-in-rfi/</guid>
+      <guid>http://localhost:1313/posts/adventures-in-rfi/</guid>
       <description>&lt;h1 id=&#34;rfi-in-my-shack---its-more-likely-than-you-think&#34;&gt;RFI? In my shack? - It&amp;rsquo;s more likely than you think.&lt;/h1&gt;
 &lt;p&gt;RFI is something I was introduced to very early on while operating end-fed antennas.&lt;/p&gt;
 &lt;p&gt;Why is my USB connection to the radio dropping as soon as it goes into TX? &lt;strong&gt;RFI&lt;/strong&gt; &lt;br&gt;
@@ -23,13 +23,13 @@ Why does my noise floor jump to S9 when a new appliance arrives in the house? &l
 &lt;p&gt;Why is my USB connection to the radio dropping as soon as it goes into TX? &lt;strong&gt;RFI&lt;/strong&gt; &lt;br&gt;
 Why does my waterfall just display noise when I connect it to USB? &lt;strong&gt;RFI&lt;/strong&gt; &lt;br&gt;
 Why does my noise floor jump to S9 when a new appliance arrives in the house? &lt;strong&gt;RFI!&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Ok, so how do we solve this problem? Suppression with &lt;a href=&#34;https://k7jsx.net/reference/#ferrites&#34;&gt;Ferrites!&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Ok, so how do we solve this problem? Suppression with &lt;a href=&#34;http://localhost:1313/reference/#ferrites&#34;&gt;Ferrites!&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;In some scenarios it&amp;rsquo;s easy to identify the source of the problem&amp;hellip; &lt;br&gt;
 Did something just get plugged in? &lt;br&gt;
 Did something just turn on? &lt;br&gt;
 Bingo! You found it. &lt;br&gt;
 Throw an appropriately sized ferrite on it and move on with life.&lt;/p&gt;
-&lt;p&gt;If the source of the noise is not apparent it&amp;rsquo;s critical to methodical and
+&lt;p&gt;If the source of the noise is not apparent it&amp;rsquo;s critical to be methodical and
 scientific to reliably detect and suppress it. Learn from my mistakes.
 It may be emitting from something you control in your own home
 or something external.&lt;/p&gt;
@@ -68,7 +68,7 @@ the house and flipped the main service breaker.
 Remember when I said we needed to be scientific? Now&amp;rsquo;s the time.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&amp;ldquo;Remember kids, the only difference between Science and screwing around is writing it down.&amp;rdquo; -Adam Savage&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;With these words of wisdom in mind lets record some readings:&lt;/p&gt;
+&lt;p&gt;With these words of wisdom in mind lets write it down:&lt;/p&gt;
 &lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
@@ -128,19 +128,19 @@ This is the quickest way to success.&lt;/li&gt;
 &lt;p&gt;Here&amp;rsquo;s some resources I reviewed during this whole process. &lt;br&gt;
 I hope they also help you.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;HRCC - &lt;em&gt;WE are killing the amateur radio bands, and here is how to fix it (RFI)&lt;/em&gt; - (&lt;a href=&#34;https://www.youtube.com/watch?v=QQzmMOJvFfc&#34;&gt;Link&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;HRCC - &lt;em&gt;WE are killing the amateur radio bands, and here is how to fix it.&lt;/em&gt; - (&lt;a href=&#34;https://www.youtube.com/watch?v=QQzmMOJvFfc&#34;&gt;Link&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Reddit - &lt;em&gt;Samsung Fridge RFI&lt;/em&gt; - (&lt;a href=&#34;https://www.reddit.com/r/amateurradio/comments/1bmpr4b/solution_to_samsung_fridge_rfi/&#34;&gt;Link&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;QRM.guru - (&lt;a href=&#34;https://qrm.guru/&#34;&gt;Link&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;Reddit - Samsung Fridge RFI - (&lt;a href=&#34;https://www.reddit.com/r/amateurradio/comments/1bmpr4b/solution_to_samsung_fridge_rfi/&#34;&gt;Link&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
 </content>
     </item>
     
     <item>
       <title>XLX142</title>
-      <link>https://k7jsx.net/xlx142/</link>
+      <link>http://localhost:1313/xlx142/</link>
       <pubDate>Fri, 13 Jun 2025 21:23:38 -0700</pubDate>
       
-      <guid>https://k7jsx.net/xlx142/</guid>
+      <guid>http://localhost:1313/xlx142/</guid>
       <description>&lt;h1 id=&#34;digital-voice---dmr--d-star&#34;&gt;Digital Voice - DMR / D-Star&lt;/h1&gt;
 &lt;p&gt;I currently host and sysop the &lt;strong&gt;XLX142&lt;/strong&gt; reflector and it&amp;rsquo;s open for regular amateur use.&lt;/p&gt;
 &lt;p&gt;The dashboard is available here: &lt;a href=&#34;https://xlx.k7jsx.net/&#34;&gt;https://xlx.k7jsx.net/&lt;/a&gt;&lt;/p&gt;
@@ -154,10 +154,10 @@ I hope they also help you.&lt;/p&gt;
     
     <item>
       <title>Reference</title>
-      <link>https://k7jsx.net/reference/</link>
+      <link>http://localhost:1313/reference/</link>
       <pubDate>Fri, 13 Jun 2025 20:00:00 -0700</pubDate>
       
-      <guid>https://k7jsx.net/reference/</guid>
+      <guid>http://localhost:1313/reference/</guid>
       <description>&lt;h1 id=&#34;ferrites&#34;&gt;Ferrites&lt;/h1&gt;
 &lt;p&gt;Here&amp;rsquo;s some useful ferrites.
 I kept losing the part numbers so let&amp;rsquo;s just put it here&amp;hellip;&lt;/p&gt;
@@ -373,10 +373,10 @@ I kept losing the part numbers so let&amp;rsquo;s just put it here&amp;hellip;&l
     
     <item>
       <title>About</title>
-      <link>https://k7jsx.net/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Fri, 13 Jun 2025 19:00:03 -0700</pubDate>
       
-      <guid>https://k7jsx.net/about/</guid>
+      <guid>http://localhost:1313/about/</guid>
       <description>&lt;p&gt;This is the blog for Amateur Radio Operator K7JSX.&lt;/p&gt;
 &lt;p&gt;I&amp;rsquo;m intending to keep it up to date with notable events and milestones with the secondary goal of cataloging projects and relevant information as I go.&lt;/p&gt;
 &lt;h1 id=&#34;about-me&#34;&gt;About Me&lt;/h1&gt;
@@ -423,6 +423,25 @@ With long time friend and Technician license recruit &lt;code&gt;N7DEV&lt;/code&
 &lt;p&gt;It&amp;rsquo;s been a great start to my General operating and I will one day make the final upgrade to Extra.
 Until then, I&amp;rsquo;ll continue experimenting and improving. I hope to see you on the air.&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;-js&lt;/code&gt;&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>First Post Best Post</title>
+      <link>http://localhost:1313/posts/first-post-best-post/</link>
+      <pubDate>Sat, 12 Apr 2025 21:54:52 -0700</pubDate>
+      
+      <guid>http://localhost:1313/posts/first-post-best-post/</guid>
+      <description>&lt;h1 id=&#34;is-this-thing-on&#34;&gt;Is this thing on&amp;hellip;?&lt;/h1&gt;
+&lt;p&gt;This is intended to be the blog for Amateur Radio Operator K7JSX.
+I&amp;rsquo;ll be documenting notable events, projects or builds.&lt;/p&gt;
+&lt;p&gt;Just getting this setup for now&amp;hellip;we&amp;rsquo;ll see how far I get.&lt;/p&gt;
+&lt;p&gt;73&lt;/p&gt;</description>
+      <content>&lt;h1 id=&#34;is-this-thing-on&#34;&gt;Is this thing on&amp;hellip;?&lt;/h1&gt;
+&lt;p&gt;This is intended to be the blog for Amateur Radio Operator K7JSX.
+I&amp;rsquo;ll be documenting notable events, projects or builds.&lt;/p&gt;
+&lt;p&gt;Just getting this setup for now&amp;hellip;we&amp;rsquo;ll see how far I get.&lt;/p&gt;
+&lt;p&gt;73&lt;/p&gt;
 </content>
     </item>
     

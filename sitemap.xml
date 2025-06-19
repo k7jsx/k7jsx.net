@@ -2,26 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://k7jsx.net/posts/adventures-in-rfi/</loc>
+    <loc>http://localhost:1313/posts/adventures-in-rfi/</loc>
     <lastmod>2025-06-14T11:29:24-07:00</lastmod>
   </url><url>
-    <loc>https://k7jsx.net/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2025-06-14T11:29:24-07:00</lastmod>
   </url><url>
-    <loc>https://k7jsx.net/posts/</loc>
+    <loc>http://localhost:1313/posts/</loc>
     <lastmod>2025-06-14T11:29:24-07:00</lastmod>
   </url><url>
-    <loc>https://k7jsx.net/xlx142/</loc>
+    <loc>http://localhost:1313/xlx142/</loc>
     <lastmod>2025-06-13T21:23:38-07:00</lastmod>
   </url><url>
-    <loc>https://k7jsx.net/reference/</loc>
+    <loc>http://localhost:1313/reference/</loc>
     <lastmod>2025-06-13T20:00:00-07:00</lastmod>
   </url><url>
-    <loc>https://k7jsx.net/about/</loc>
+    <loc>http://localhost:1313/about/</loc>
     <lastmod>2025-06-13T19:00:03-07:00</lastmod>
   </url><url>
-    <loc>https://k7jsx.net/categories/</loc>
+    <loc>http://localhost:1313/posts/first-post-best-post/</loc>
+    <lastmod>2025-04-12T21:54:52-07:00</lastmod>
   </url><url>
-    <loc>https://k7jsx.net/tags/</loc>
+    <loc>http://localhost:1313/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>

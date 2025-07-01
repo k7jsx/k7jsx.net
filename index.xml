@@ -6,7 +6,156 @@
     <description>Recent content on k7jsx.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 14 Jun 2025 11:29:24 -0700</lastBuildDate><atom:link href="https://k7jsx.net/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 30 Jun 2025 14:00:00 -0700</lastBuildDate><atom:link href="https://k7jsx.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Field Day 2025</title>
+      <link>https://k7jsx.net/posts/field-day-2025/</link>
+      <pubDate>Mon, 30 Jun 2025 14:00:00 -0700</pubDate>
+      
+      <guid>https://k7jsx.net/posts/field-day-2025/</guid>
+      <description>&lt;p&gt;2025 marks the second year I plan to participate in Field Day. &lt;br&gt;
+The ARRL describes Field Day as&amp;hellip;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Field Day is ham radio&amp;rsquo;s open house. Every June, more than 40,000 hams throughout North America set up temporary transmitting stations in public places to demonstrate ham radio&amp;rsquo;s science, skill, and service to our communities and our nation.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;To me, some aspects of this this description are &lt;em&gt;aspirational&lt;/em&gt;.
+My experience with the &amp;ldquo;open house&amp;rdquo; aspects are a mixed bag but I can identify
+with need to showcase the &amp;ldquo;science, skill and service&amp;rdquo; Amateur Radio Ops can provide.&lt;/p&gt;</description>
+      <content>&lt;p&gt;2025 marks the second year I plan to participate in Field Day. &lt;br&gt;
+The ARRL describes Field Day as&amp;hellip;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Field Day is ham radio&amp;rsquo;s open house. Every June, more than 40,000 hams throughout North America set up temporary transmitting stations in public places to demonstrate ham radio&amp;rsquo;s science, skill, and service to our communities and our nation.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;To me, some aspects of this this description are &lt;em&gt;aspirational&lt;/em&gt;.
+My experience with the &amp;ldquo;open house&amp;rdquo; aspects are a mixed bag but I can identify
+with need to showcase the &amp;ldquo;science, skill and service&amp;rdquo; Amateur Radio Ops can provide.&lt;/p&gt;
+&lt;h2 id=&#34;some-backstory&#34;&gt;Some backstory&amp;hellip;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;2024&lt;/strong&gt; was my first year as a General and operating in Field Day was a contributing force
+behind earning my upgrade. Consequently, it was also a proof of concept for my portable operating.
+Using a homebrew end-fed antenna, fishing pole used as a mast and an IC-705 I was able to
+make contacts across the nation. It was the first time I was able to experience 20 meters
+during contest conditions and I barely knew what I was doing.&lt;/p&gt;
+&lt;p&gt;One interaction between a few hams that day would set the tone for Field Day going forward.&lt;/p&gt;
+&lt;p&gt;Station Calling CQ: &lt;code&gt;&amp;quot;CQ Field Day. This is ***** calling CQ Field Day.&amp;quot;&lt;/code&gt;&lt;br&gt;
+Unknown Second Station: &lt;code&gt;&amp;quot;Frequency is in use old man!!&amp;quot;&lt;/code&gt;&lt;br&gt;
+Unknown Third Station: &lt;code&gt;&amp;quot;It&#39;s Field Day! Every frequency is in use!&amp;quot;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;All the rhetoric I&amp;rsquo;d heard about proper operating procedures seemingly
+tossed out in the presence of a not-a-contest contest.&lt;/p&gt;
+&lt;h2 id=&#34;2025&#34;&gt;2025&lt;/h2&gt;
+&lt;p&gt;With the lessons learned from last years event and 13
+completed Parks on the Air activations I would undoubtedly be more prepared.&lt;/p&gt;
+&lt;p&gt;A few goals for this year:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Operate multiple bands. (Last year was just 20 and 10 meters.)&lt;/li&gt;
+&lt;li&gt;Operate multiple transmitters.  (Last year was just a single TX.)&lt;/li&gt;
+&lt;li&gt;Multiple antenna types. (wire and vertical.)&lt;/li&gt;
+&lt;li&gt;Work 17 and 80 meters.&lt;/li&gt;
+&lt;li&gt;QRP!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Goals in mind and fellow operator &lt;code&gt;N7DEV&lt;/code&gt; in tow we headed to Mt. Charleston to
+escape the Southern Nevada heat.&lt;/p&gt;
+&lt;h3 id=&#34;station-configurations&#34;&gt;Station Configurations&lt;/h3&gt;
+&lt;p&gt;First order of business was to get the first station online. &lt;code&gt;N7DEV&lt;/code&gt; will
+be operating 10 meters. Original idea was to run the Chameleon CHA-BV but I quickly
+realized I could not get that into tune on 10. 20 and 17 were fine but the SWR would
+quickly climb to over 4 when adjusted near 28400khz. Later I would consult the manual
+and learn I needed to shorten the radials to achieve 10 meters but in the moment
+it was time to fall back to the second antenna option, an EFHW.&lt;/p&gt;
+&lt;p&gt;A wire was in the air! Progress! Now let&amp;rsquo;s see if the band is alive. Bringing up the
+waterfall display revealed no signals across the entire Technician portion of the band.
+Nothing to worry about yet as the event hadn&amp;rsquo;t officially begun yet.
+Leaving &lt;code&gt;N7DEV&lt;/code&gt; with some tips to familiarize himself with the IC-705 I moved on to
+set up my operating position.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ll be operating the Elecraft Kx2 and a 35.5&amp;rsquo; random wire from the bed of my truck.
+This trusty combo has served me well for multiple POTA activations.
+The receiver, parametric mic eq and voice keyer really are the showpieces in the Kx2.&lt;/p&gt;
+&lt;h3 id=&#34;working-out-the-bugs&#34;&gt;Working out the bugs.&lt;/h3&gt;
+&lt;p&gt;Once both stations were online and transmitting the second issue of the day appeared.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Receiver Overload&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This was a problem I was vaguely aware of but figured it would not be an issue due
+to working low power and working different bands. Facing my mistake head on I quickly
+determined I could operate 40 meters with no impact to &lt;code&gt;N7DEV&lt;/code&gt; on 10.
+With that solved the only thing left was to await the official start.&lt;/p&gt;
+&lt;h3 id=&#34;and-here-we-go&#34;&gt;And here we go.&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;N7DEV&lt;/code&gt; brought some excellent &lt;a href=&#34;https://tikicentral.com/viewtopic.php?topic_id=45867&#34;&gt;Finkbombs&lt;/a&gt;
+to enjoy while the event officially
+kicked off. Cheers! Anyone for Tiki Bars on the Air (TBOTA)? Weekly TikiNet?&lt;/p&gt;
+&lt;p&gt;11AM Pacific rolled around and 10 meters was quiet, the band scope showed no activity.
+I had feared the band would just not be cooperating today.
+In contrast, 40 meters was alive and significantly less crowded than 20.
+I decided to keep my station on 40 for the remainder of the event.&lt;/p&gt;
+&lt;p&gt;With a few contacts in the log on 40 we started to hear 10 wake up. A fairly local
+station (&lt;code&gt;KJ7JKJ&lt;/code&gt;) located in nearby Las Vegas was calling CQ but not for Field Day&amp;hellip;&lt;br&gt;
+We&amp;rsquo;ll take it.&lt;/p&gt;
+&lt;p&gt;A short while later Victor Echo stations are heard and &lt;code&gt;VE7NOR&lt;/code&gt; is the first 10m Field Day QSO.&lt;/p&gt;
+&lt;p&gt;Back on 40 we&amp;rsquo;ve added &lt;code&gt;UT&lt;/code&gt;,&lt;code&gt;ID&lt;/code&gt; and &lt;code&gt;AZ&lt;/code&gt; to the log and multiple sub-sections of &lt;code&gt;CA&lt;/code&gt;.
+This is going well&amp;hellip;then &lt;em&gt;we hear it&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;This is November Seven Oscar Sierra, Microsoft Radio Club. CQ Field Day.&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Dropping my station mic and immediately heading over to the 10 meter station to throw out my call.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;N7OS&lt;/strong&gt;: &lt;em&gt;K7JSX we are 3 Alpha Western Washington&lt;/em&gt;&lt;br&gt;
+&lt;strong&gt;K7JSX&lt;/strong&gt;: &lt;em&gt;N7OS we are 2B NV and big fans of Windows Vista on this end.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;We had just worked &lt;a href=&#34;https://www.microhams.com/&#34;&gt;MicroHAMS&lt;/a&gt;, a club comprised of
+Microsoft Employees. It may not be the furthest contact but given the opportunity for
+long time Windows SysAdmins to express gratitude directly to a Microsoft employee,
+it will absolutely be the most memorable.&lt;/p&gt;
+&lt;h3 id=&#34;some-stats&#34;&gt;Some stats.&lt;/h3&gt;
+&lt;p&gt;I had intended to work more on 17 meters and at least attempt
+80 meters but these goals were just not in the cards this year.
+Something to attempt for Winter Field Day&amp;hellip;&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s the final counts&amp;hellip;&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Band&lt;/th&gt;
+          &lt;th&gt;QSO Count&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;40m&lt;/td&gt;
+          &lt;td&gt;43 SSB&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;20m&lt;/td&gt;
+          &lt;td&gt;8 SSB&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;10m&lt;/td&gt;
+          &lt;td&gt;24 SSB&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;While I do not gauge the success of the operation by these numbers, this marks
+a &lt;strong&gt;108%&lt;/strong&gt; increase in total QSOs from the previous year and I
+consider that progress a success.&lt;/p&gt;
+&lt;h3 id=&#34;lessons-learned&#34;&gt;Lessons Learned.&lt;/h3&gt;
+&lt;p&gt;We quickly learned a few things:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Bandpass filters.&lt;/strong&gt;&lt;br&gt;
+This is simply a requirement for operating transmitters in such
+close proximity. I had not understood this as a viable concern
+while preparing for the event. Even QRP power levels are more
+than enough to overload the receiver of a nearby station.
+A collection of bandpass filters will need to sourced before
+attempting multiple transmitters again.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Contingency Antennas&lt;/strong&gt;&lt;br&gt;
+The original idea of running a vertical for 10 meters failed
+due to my misunderstanding of the Chameleon CHA-BV radial system.
+I had falsely assumed only the whip section needed to be tuned but
+after consulting the manual after the even the radial sections
+required substantial shortening. While the end-fed stepped
+in to save the day it was not originally my intention to
+bring it along. Always bring alternates!&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;until-next-time&#34;&gt;Until next time&amp;hellip;&lt;/h2&gt;
+&lt;p&gt;Despite the on-air chaos that is Field Day, I look forward to participating again the in the future.
+It not only serves as a operating exercise but also the opportunity to share it with friends
+and get outside.&lt;/p&gt;
+</content>
+    </item>
+    
     <item>
       <title>Adventures in RFI</title>
       <link>https://k7jsx.net/posts/adventures-in-rfi/</link>

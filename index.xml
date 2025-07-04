@@ -285,19 +285,35 @@ I hope they also help you.&lt;/p&gt;
     </item>
     
     <item>
-      <title>XLX142</title>
-      <link>https://k7jsx.net/xlx142/</link>
+      <title>Digital Voice</title>
+      <link>https://k7jsx.net/digital/</link>
       <pubDate>Fri, 13 Jun 2025 21:23:38 -0700</pubDate>
       
-      <guid>https://k7jsx.net/xlx142/</guid>
-      <description>&lt;h1 id=&#34;digital-voice---dmr--d-star&#34;&gt;Digital Voice - DMR / D-Star&lt;/h1&gt;
-&lt;p&gt;I currently host and sysop the &lt;strong&gt;XLX142&lt;/strong&gt; reflector and it&amp;rsquo;s open for regular amateur use.&lt;/p&gt;
-&lt;p&gt;The dashboard is available here: &lt;a href=&#34;https://xlx.k7jsx.net/&#34;&gt;https://xlx.k7jsx.net/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;D-Star Terminal Mode is available by using the following server name:  &lt;code&gt;tm.k7jsx.net&lt;/code&gt;&lt;/p&gt;</description>
-      <content>&lt;h1 id=&#34;digital-voice---dmr--d-star&#34;&gt;Digital Voice - DMR / D-Star&lt;/h1&gt;
-&lt;p&gt;I currently host and sysop the &lt;strong&gt;XLX142&lt;/strong&gt; reflector and it&amp;rsquo;s open for regular amateur use.&lt;/p&gt;
-&lt;p&gt;The dashboard is available here: &lt;a href=&#34;https://xlx.k7jsx.net/&#34;&gt;https://xlx.k7jsx.net/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;D-Star Terminal Mode is available by using the following server name:  &lt;code&gt;tm.k7jsx.net&lt;/code&gt;&lt;/p&gt;
+      <guid>https://k7jsx.net/digital/</guid>
+      <description>&lt;h1 id=&#34;d-star&#34;&gt;D-Star&lt;/h1&gt;
+&lt;p&gt;I currently host and sysop the &lt;strong&gt;XLX142&lt;/strong&gt; reflector. &lt;br&gt;
+It&amp;rsquo;s open for regular amateur use.&lt;/p&gt;
+&lt;p&gt;The dashboard is available here: &lt;a href=&#34;https://xlx.k7jsx.net/&#34;&gt;https://xlx.k7jsx.net/&lt;/a&gt; &lt;br&gt;
+Terminal Mode is available here:  &lt;code&gt;tm.k7jsx.net&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;I maintain a local MMDVM hotspot that&amp;rsquo;s usually linked to &lt;a href=&#34;http://ref014.dstargateway.org/&#34;&gt;REF014&lt;/a&gt; Module C
+or XLX142.&lt;/p&gt;
+&lt;h1 id=&#34;dmr&#34;&gt;DMR&lt;/h1&gt;
+&lt;p&gt;DMR RadioID is: &lt;code&gt;3132573&lt;/code&gt;&lt;/p&gt;
+&lt;h1 id=&#34;yaesu-system-fusion&#34;&gt;Yaesu System Fusion&lt;/h1&gt;
+&lt;p&gt;I currently have no presence on the Yeasu digital modes other than
+the XLX142 reflector which &lt;em&gt;can&lt;/em&gt; host YSF rooms, but this is untested.&lt;/p&gt;</description>
+      <content>&lt;h1 id=&#34;d-star&#34;&gt;D-Star&lt;/h1&gt;
+&lt;p&gt;I currently host and sysop the &lt;strong&gt;XLX142&lt;/strong&gt; reflector. &lt;br&gt;
+It&amp;rsquo;s open for regular amateur use.&lt;/p&gt;
+&lt;p&gt;The dashboard is available here: &lt;a href=&#34;https://xlx.k7jsx.net/&#34;&gt;https://xlx.k7jsx.net/&lt;/a&gt; &lt;br&gt;
+Terminal Mode is available here:  &lt;code&gt;tm.k7jsx.net&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;I maintain a local MMDVM hotspot that&amp;rsquo;s usually linked to &lt;a href=&#34;http://ref014.dstargateway.org/&#34;&gt;REF014&lt;/a&gt; Module C
+or XLX142.&lt;/p&gt;
+&lt;h1 id=&#34;dmr&#34;&gt;DMR&lt;/h1&gt;
+&lt;p&gt;DMR RadioID is: &lt;code&gt;3132573&lt;/code&gt;&lt;/p&gt;
+&lt;h1 id=&#34;yaesu-system-fusion&#34;&gt;Yaesu System Fusion&lt;/h1&gt;
+&lt;p&gt;I currently have no presence on the Yeasu digital modes other than
+the XLX142 reflector which &lt;em&gt;can&lt;/em&gt; host YSF rooms, but this is untested.&lt;/p&gt;
 </content>
     </item>
     

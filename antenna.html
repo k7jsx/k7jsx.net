@@ -1,0 +1,250 @@
+<!--
+     _  _______   _ ______  __
+    | |/ /___  | | / ___\ \/ /
+    | ' /   / /  | \___ \\  / 
+    | . \  / / |_| |___) /  \ 
+    |_|\_\/_/ \___/|____/_/\_\
+
+  File:         antenna.html
+  Author:       K7JSX, gpt-oss-20b (mostly vibe-coded with manual tweaks.)
+  Date:         2026.01.12
+  Description:  Easy to use, mobile friendly page used to quickly see/generate
+                common antenna lengths.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Antenna Length Calculator</title>
+    <style>
+        body {
+            font-family: monospace, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            margin: 0;
+            padding: 1rem;
+            background: #282A36;
+            color: #F8F8F2;
+        }
+
+        h1 {
+            font-size: 1.4rem;
+            margin-bottom: 1rem;
+        }
+
+        form {
+            max-width: 480px;
+            margin: 0 auto;
+            background: #282A36;
+            padding: 1rem;
+            border-radius: 0.75rem;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        }
+
+        fieldset {
+            border: 1px solid #ddd;
+            border-radius: 0.5rem;
+            margin-bottom: 1rem;
+            padding: 0.75rem;
+        }
+
+        legend {
+            padding: 0 0.5rem;
+            font-weight: 600;
+            color: #50FA7B;
+        }
+
+        label {
+            display: block;
+            margin-top: 0.5rem;
+            font-size: 0.95rem;
+        }
+
+        input[type="number"],
+        select,
+        button {
+            width: 100%;
+            padding: 0.6rem;
+            margin-top: 0.25rem;
+            font-size: 1rem;
+            border-radius: 0.5rem;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+
+        .inline-group {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            margin-top: 0.5rem;
+        }
+
+        .inline-group label {
+            display: flex;
+            align-items: center;
+            gap: 0.25rem;
+            margin-top: 0;
+        }
+
+        button {
+            margin-top: 0.75rem;
+            cursor: pointer;
+        }
+
+        output {
+            display: block;
+            margin-top: 0.25rem;
+            font-weight: 600;
+            font-size: 1.05rem;
+            color: #FFB86C;
+        }
+
+        @media (max-width: 400px) {
+            h1 {
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <form id="calcForm">
+        <fieldset>
+            <legend>Frequency Input</legend>
+
+            <label for="band">Amateur HF Band</label>
+            <select id="band" name="band">
+                <option value="">— Select Band —</option>
+                <option value="1.9">160 m (1.8–2.0 MHz)</option>
+                <option value="3.6">80 m (3.5–4.0 MHz)</option>
+                <option value="5.35">60 m (5.330–5.4065 MHz)</option>
+                <option value="7.15">40 m (7.0–7.3 MHz)</option>
+                <option value="10.125">30 m (10.1–10.15 MHz)</option>
+                <option value="14.175">20 m (14.0–14.35 MHz)</option>
+                <option value="18.118">17 m (18.068–18.168 MHz)</option>
+                <option value="21.225">15 m (21.0–21.45 MHz)</option>
+                <option value="24.94">12 m (24.89–24.99 MHz)</option>
+                <option value="28.4">10 m (28.0–29.7 MHz)</option>
+            </select>
+
+            <label for="frequency">Frequency</label>
+            <input type="number" id="frequency" name="frequency" min="0.1" step="0.1" required
+                placeholder="e.g. 14.2" />
+
+            <label for="unit">(MHz / kHz / Hz)</label>
+            <select id="unit" name="unit">
+                <option value="mhz" selected>MHz</option>
+                <option value="khz">kHz</option>
+                <option value="hz">Hz</option>
+            </select>
+
+            <label>
+                <input type="checkbox" id="autoCalc" checked /> Auto-calculate on change
+            </label>
+
+            <label>Output Units</label>
+            <div class="inline-group">
+                <label><input type="radio" name="lengthUnit" value="feet" checked /> Feet</label>
+                <label><input type="radio" name="lengthUnit" value="meters" /> Meters</label>
+            </div>
+
+            <button type="button" id="calcBtn">Calculate</button>
+            <button type="reset">Reset</button>
+        </fieldset>
+
+        <fieldset>
+            <legend>Results</legend>
+
+            <label for="fullWave">Full-wave</label>
+            <output id="fullWave" name="fullWave">—</output>
+
+            <label for="halfWave">Half-wave</label>
+            <output id="halfWave" name="halfWave">—</output>
+
+            <label for="quarterWave">Quarter-wave</label>
+            <output id="quarterWave" name="quarterWave">—</output>
+        </fieldset>
+    </form>
+
+    <script>
+        const freqInput = document.getElementById('frequency');
+        const unitSelect = document.getElementById('unit');
+        const autoCalc = document.getElementById('autoCalc');
+        const calcBtn = document.getElementById('calcBtn');
+        const fullOut = document.getElementById('fullWave');
+        const halfOut = document.getElementById('halfWave');
+        const quarterOut = document.getElementById('quarterWave');
+        const bandSelect = document.getElementById('band');
+
+        let lastUnit = unitSelect.value;
+
+        function toMHz(value, unit) {
+            if (unit === 'khz') return value / 1000;
+            if (unit === 'hz') return value / 1_000_000;
+            return value; // mhz
+        }
+
+        function fromMHz(valueMHz, unit) {
+            if (unit === 'khz') return valueMHz * 1000;
+            if (unit === 'hz') return valueMHz * 1_000_000;
+            return valueMHz; // mhz
+        }
+
+        function formatLength(feet, unit) {
+            if (unit === 'meters') {
+                const meters = feet * 0.3048;
+                return meters.toFixed(2) + ' m';
+            }
+            return feet.toFixed(2) + ' ft';
+        }
+
+        function calculate() {
+            const raw = parseFloat(freqInput.value);
+            if (isNaN(raw) || raw <= 0) {
+                fullOut.value = halfOut.value = quarterOut.value = '—';
+                return;
+            }
+
+            const mhz = toMHz(raw, unitSelect.value);
+            const lengthUnit = document.querySelector('input[name="lengthUnit"]:checked').value;
+
+            const full = 1005 / mhz;
+            const half = 468 / mhz;
+            const quarter = 234 / mhz;
+
+            fullOut.value = formatLength(full, lengthUnit);
+            halfOut.value = formatLength(half, lengthUnit);
+            quarterOut.value = formatLength(quarter, lengthUnit);
+        }
+
+        bandSelect.addEventListener('change', () => {
+            if (bandSelect.value) {
+                const mhzVal = parseFloat(bandSelect.value);
+                const converted = fromMHz(mhzVal, unitSelect.value);
+                freqInput.value = converted.toFixed(unitSelect.value === 'mhz' ? 3 : 0);
+                if (autoCalc.checked) calculate();
+            }
+        });
+
+        unitSelect.addEventListener('change', () => {
+            const raw = parseFloat(freqInput.value);
+            if (!isNaN(raw) && raw > 0) {
+                const mhz = toMHz(raw, lastUnit);
+                const converted = fromMHz(mhz, unitSelect.value);
+                freqInput.value = converted.toFixed(unitSelect.value === 'mhz' ? 3 : 0);
+            }
+            lastUnit = unitSelect.value;
+            if (autoCalc.checked) calculate();
+        });
+
+        freqInput.addEventListener('input', () => { if (autoCalc.checked) calculate(); });
+        document.querySelectorAll('input[name="lengthUnit"]').forEach(r => {
+            r.addEventListener('change', () => { if (autoCalc.checked) calculate(); });
+        });
+
+        calcBtn.addEventListener('click', calculate);
+    </script>
+</body>
+
+</html>
